@@ -1,8 +1,26 @@
 aid: blau-corp
 name: Blau Corp
-description: Blau Corp is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Blau (Blau Corp) is a waste-management operating system for haulers (gestores),
+  final-destination facilities, and government regulators across Mexico, Colombia, and Spain.
+  The SaaS platform delivers AI-assisted route optimization, route-level profitability analysis,
+  automated RP and RPBI hazardous- and biological-infectious-waste manifests, online collection
+  booking, and end-to-end traceability, plus the Blau Driver mobile app for field crews. Founded
+  in Guadalajara, Mexico in 2021 and backed by 500 Global (LatAm B17 batch), Blau integrates with
+  SAT/CFDI, SEMARNAT, SAP/ERP, QuickBooks, WhatsApp, fleet GPS, and Power BI. Blau does not
+  currently publish a public developer API, SDK, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/blau-corp/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://blaucorp.com/assets/blau-logo.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Waste Management
+- Sustainability
+- Logistics
+- Fleet Routing
+- Artificial Intelligence
+- SaaS
+- Environment
+- Latin America
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/blau-corp-domain-security.yml
 - type: Website
   url: https://blaucorp.com
+- type: Login
+  url: https://app.blaucorp.com
+- type: PrivacyPolicy
+  url: https://blaucorp.com/privacy/
+- type: Blog
+  url: https://blaucorp.com/recursos.html
+- type: Support
+  url: https://wa.me/523312958895
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
