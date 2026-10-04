@@ -1,5 +1,5 @@
 aid: blau-corp
-name: Blau Corp
+name: Blau
 description: Blau (Blau Corp) is a waste-management operating system for haulers (gestores),
   final-destination facilities, and government regulators across Mexico, Colombia, and Spain.
   The SaaS platform delivers AI-assisted route optimization, route-level profitability analysis,
@@ -85,3 +85,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: Blau Corp
